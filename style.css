@@ -1,0 +1,153 @@
+body{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+}
+/*------------------------------------------------------TOPO------------------------------------------------------*/
+#menu img{
+    padding-top: 10px;
+    padding-left: 80px;
+    float: left;
+}
+
+#menu{
+    border: solid 1px transparent;
+    background-color: rgb(21, 32, 56);
+    padding-bottom: 10px;
+}
+
+/*LI tem que ser display block*/
+#menu nav li a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    transition: color 0.3s linear;
+}
+
+#menu nav li a:hover{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+
+#menu nav ul{
+    margin: 10px 25px 0px 0px;
+    text-align: right;
+    list-style: none;
+}
+
+#menu nav li{
+    margin-right: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#fotoPrincipal{
+    width: 100%;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------MEIO------------------------------------------------------*/
+
+#apresentacao{
+    color: rgba(0, 0, 0, 0.650);
+    text-align: center;
+    margin-top: 50px;
+}
+
+#apresentacao h1{
+    text-transform: uppercase;
+}
+
+#apresentacao p{
+    padding: 0px 100px;
+    line-height: 2;
+}
+
+.icons{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 33%;
+    overflow: auto;
+    float: left;
+}
+.icons img{
+    border: solid 1px transparent;
+    border-radius: 6px;
+}
+
+.icons h2{
+    font-weight: bold;
+    font-size:16px;
+    color: rgba(0, 0, 0, 0.650);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.icons p{
+    color: rgba(0, 0, 0, 0.650);
+}
+
+#div-escrita{
+    color: white;
+    clear: both;
+    width: 100%;
+    height: 500px;
+    background-image: url(img/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+
+#suporte{
+    padding: 100px;
+}
+
+#suporte h1{
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#suporte p{
+    line-height: 1.5;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------FOOTER------------------------------------------------------*/
+
+#contato{
+    text-transform: uppercase;
+    margin: 30px;
+    text-align: center;
+    color: rgb(56, 56, 105);
+}
+
+#mapa{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer{
+    font-size: 12px;
+    margin: auto;
+    width: 70%;
+    color: rgb(100, 119, 160);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(43, 40, 68);
+    text-align: center;
+    letter-spacing: 4px;
+}
